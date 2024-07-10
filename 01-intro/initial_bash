@@ -8,3 +8,8 @@ docker run -it \
     docker.elastic.co/elasticsearch/elasticsearch:8.4.3
 
 pip install tqdm notebook==7.1.2 openai elasticsearch pandas scikit-learn
+
+wget https://raw.githubusercontent.com/DataTalksClub/llm-zoomcamp/main/01-intro/documents.json
+
+# c3
+pip install sentence_transformers==2.7.0
